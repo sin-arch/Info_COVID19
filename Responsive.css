@@ -1,0 +1,55 @@
+/* Untuk Tablet */
+@media all and (max-width: 670px) {
+  body {
+    width: 100%;
+  }
+  .header{
+    height:50px;
+  }
+  .header-logo h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    float:left;
+    margin: 0 auto;
+  }
+  .header-list ul{
+    float:right;
+    padding-top: 2px;
+  }
+  
+  .header-list ul li {
+    font-size: 10px;
+    margin-top: 0px;
+    display: block;
+    opacity: 0%
+  }
+  .main h1, .main h2, .main p{
+    font-size: 30px;
+    color:#E2E328;
+    opacity: 0%
+  }
+  
+  .logo-covid {
+    opacity: 0%;
+    width:0%;
+  }
+  .covid p{
+    text-align: left;
+    width:100%
+  }
+  .nampung {
+    flex-wrap:wrap;
+  }
+  .container{
+    height: auto;
+  }
+  .artikel-item{
+    width:100%
+  }
+  .sub-bab ul li{
+    padding: 2px;
+  }
+}
+ 
+  
+ 
